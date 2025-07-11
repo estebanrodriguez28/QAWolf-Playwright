@@ -1,0 +1,21 @@
+{
+  "name": "qa_wolf_take_home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.39.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^20.8.9",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0"
+  },
+  "type": "module"
+}
