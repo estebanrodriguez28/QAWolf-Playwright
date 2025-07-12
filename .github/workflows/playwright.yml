@@ -25,6 +25,9 @@ jobs:
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
+      
+      - name: Run ESLint
+        run: npx eslint tests/example.spec.js
 
       - name: Run Playwright tests
         run: npx playwright test
